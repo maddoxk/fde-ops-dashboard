@@ -51,7 +51,7 @@ describe("App", () => {
 describe("deriveKpis", () => {
   it("recomputes consistent KPIs for a 30-day slice", () => {
     const slice = dataset.daily.slice(-30);
-    const k = deriveKpis(slice, dataset.daily, 642, dataset.alerts.slice(0, 5));
+    const k = deriveKpis(slice, dataset.daily, 889, dataset.alerts.slice(0, 5));
     expect(k.windowDays).toBe(30);
     expect(k.slaCompliancePctLast30).toBeGreaterThan(0);
     expect(k.slaCompliancePctLast30).toBeLessThanOrEqual(100);

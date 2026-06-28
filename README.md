@@ -72,7 +72,7 @@ The generator models believable enterprise patterns rather than random noise:
 
 Record counts (current seed): **180** daily points, **168** heatmap cells (7×24),
 **12** cohorts, **600** sample tickets, **136** alerts — **1,096** records total,
-representing **35,687** synthetic tickets across **642** accounts over a 180-day window.
+representing **35,687** synthetic tickets across **889** accounts over a 180-day window.
 
 > All data is synthetic. No real customers, accounts, or PII.
 
